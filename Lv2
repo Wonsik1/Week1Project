@@ -1,18 +1,18 @@
 class Calculator { // 계산기 과제
         
-    func add(a:Int, b:Int)->Int { // 덧셈 함수
+    func add(a: Int, b: Int) -> Int { // 덧셈 함수
         return a+b
     }
     
-    func sub(a:Int, b:Int)->Int { // 뺄셈 함수
+    func sub(a: Int, b: Int) -> Int { // 뺄셈 함수
         return a-b
     }
     
-    func mul(a:Int, b:Int)->Int { // 곰셈 함수
+    func mul(a: Int, b: Int) -> Int { // 곰셈 함수
         return a*b
     }
     
-    func div(a:Int, b:Int)->Int? { // 나눗셈 함수
+    func div(a: Int, b: Int) -> Int? { // 나눗셈 함수
         
         if b == 0 { // 0으로 나눴을 경우 예외 처리
             print("0으로 나눌 수 없습니다.")
@@ -21,7 +21,7 @@ class Calculator { // 계산기 과제
         return a/b
     }
     
-    func rem(a:Int, b:Int)->Int? { // 나머지 값 연산 함수
+    func rem(a: Int, b: Int) -> Int? { // 나머지 값 연산 함수
         
         if b == 0 { // 0으로 나눴을 경우 예외 처리
             print("0으로 나눌 수 없습니다.")
