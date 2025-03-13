@@ -36,7 +36,7 @@ let addResult = calculator.add(a: 2, b: 5) // 생성된 인스턴스로 클래�
 let subResult = calculator.sub(a: 3, b: 1)
 let mulResult = calculator.mul(a: 5, b: 3)
 let divResult = calculator.div(a: 6, b: 2)
-let remResult = calculator.div(a: 5, b: 3)
+let remResult = calculator.rem(a: 5, b: 3)
 
 print("덧셈 결과 : \(addResult)") // 결과 출력
 print("뺄셈 결과 : \(subResult)")
