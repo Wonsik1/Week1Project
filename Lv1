@@ -1,29 +1,29 @@
-class Calculator {
+class Calculator { // 계산기 과제 
         
-    func add(a:Int, b:Int)->Int {
+    func add(a:Int, b:Int)->Int { // 덧셈 함수
         return a+b
     }
     
-    func sub(a:Int, b:Int)->Int {
+    func sub(a:Int, b:Int)->Int { // 뺄셈 함수
         return a-b
     }
     
-    func mul(a:Int, b:Int)->Int {
+    func mul(a:Int, b:Int)->Int { // 곰셈 함수 
         return a*b
     }
     
-    func div(a:Int, b:Int)->Int {
+    func div(a:Int, b:Int)->Int { // 나눗셈 함수
         return a/b
     }
 }
 
-let calculator = Calculator()
-let addResult = calculator.add(a: 2, b: 5)
+let calculator = Calculator() // Calculator 클래스 타입의 인스턴스 생성
+let addResult = calculator.add(a: 2, b: 5) // 생성된 인스턴스로 클래스의 함수를 호출하여 상수에 저장
 let subResult = calculator.sub(a: 3, b: 1)
 let mulResult = calculator.mul(a: 5, b: 3)
 let divResult = calculator.div(a: 6, b: 2)
 
-print("덧셈 결과 : \(addResult)")
+print("덧셈 결과 : \(addResult)") // 결과 출력
 print("뺄셈 결과 : \(subResult)")
 print("곱셈 결과 : \(mulResult)")
 print("나눗셈 결과 : \(divResult)")
